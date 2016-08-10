@@ -2,10 +2,10 @@ apply plugin: 'java'
 apply plugin: 'application'
 
 version = '1.0.SNAPSHOT'
-mainClassName = 'com.chyld.Main'
+mainClassName = 'com.sprinkles.Main'
 
 task wrapper(type: Wrapper){
-  gradleVersion = '2.14.1'
+  gradleVersion = '2.9'
 }
 
 repositories {
